@@ -1,6 +1,10 @@
-���Ա��غ�github�����й���վ�����ӡ�
-��github�ֿ�clone����֮���ٴ��ύ
-�����ߣ�
-1�� git add .  �������ع����������ļ��ύ�������ػ�������
-2:    git commit -m "�ύ��ע"  �ύ�� �����زֿ⡿
-3��  git push origin master   �����زֿ�Ĵ����ύ�� ��Զ�ֿ̲⡿
+测试本地和github代码托管网站的连接。
+二：创建好项目之后，将项目提交到仓库并且clone到本地。
+从github仓库clone下来之后，再次提交
+三步走：
+1： git add .  将【本地工作区】的文件提交到【本地缓存区】
+2:    git commit -m "提交备注"  提交到 【本地仓库】
+3：  git push origin master   将本地仓库的代码提交到 【远程仓库】
+
+
+三:远程仓库更新之后，在本地仓库进行pull拉取
